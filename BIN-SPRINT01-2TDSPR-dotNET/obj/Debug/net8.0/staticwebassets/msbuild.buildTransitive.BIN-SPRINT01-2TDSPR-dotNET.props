@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BIN-SPRINT01-2TDSPR-dotNET.props" />
+</Project>

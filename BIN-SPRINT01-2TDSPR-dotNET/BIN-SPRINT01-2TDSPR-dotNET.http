@@ -1,0 +1,6 @@
+@BIN_SPRINT01_2TDSPR_dotNET_HostAddress = http://localhost:5272
+
+GET {{BIN_SPRINT01_2TDSPR_dotNET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

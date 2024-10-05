@@ -1,0 +1,25 @@
+DROP TABLE Clientes CASCADE CONSTRAINTS;
+DROP TABLE Funcionarios CASCADE CONSTRAINTS;
+
+CREATE TABLE Clientes (
+    ClienteID NUMBER NOT NULL,
+    Nome VARCHAR2(100) NOT NULL,
+    CPF VARCHAR2(11) UNIQUE NOT NULL,
+    DataNascimento DATE,
+    Email VARCHAR2(100),
+    PRIMARY KEY (ClienteID)
+);
+
+CREATE TABLE Funcionarios (
+    FuncionarioID NUMBER NOT NULL,
+    Nome VARCHAR2(100) NOT NULL,
+    CPF VARCHAR2(11) UNIQUE NOT NULL,
+    Cargo VARCHAR2(50),
+    Salario NUMBER(10, 2),
+    DataContratacao DATE,
+    PRIMARY KEY (FuncionarioID)
+);
+
+
+
+

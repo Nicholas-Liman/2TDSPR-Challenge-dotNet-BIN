@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BIN-SPRINT01-2TDSPR-dotNET.props" />
+</Project>
